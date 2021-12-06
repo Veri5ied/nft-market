@@ -1,0 +1,16 @@
+.sidenav {
+  background: #25272e;
+  color: #fff;
+  height: 100vh;
+  padding: 0.8em;
+}
+
+.sidenav ul {
+  padding: 1em;
+}
+
+.sidenav ul li {
+  list-style: none;
+  padding: 0.5em 0;
+  border-bottom: 2px solid lightgray;
+}

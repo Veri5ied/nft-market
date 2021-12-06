@@ -1,6 +1,7 @@
 import NFTMart from "../../components/nftmart/NFTMart";
 import SideNav from "../../components/sidenav/SideNav";
 import TopNav from "../../components/topnav/TopNav";
+import "./Dashboard.css"
 
 function Dashboard() {
   return (

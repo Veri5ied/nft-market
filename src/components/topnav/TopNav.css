@@ -28,12 +28,12 @@
   margin-top: 1em;
 }
 
-ul li {
+.topnav__links ul li {
   list-style: none;
   padding: 0.3em 0.9em;
 }
 
-ul li:nth-child(1) {
+.topnav__links ul li:nth-child(1) {
   color: #38f2af;
   font-style: normal;
   font-weight: 500;
