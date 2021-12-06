@@ -2,4 +2,82 @@
   background: #25272e;
   color: #fff;
   height: 100vh;
+  padding: 1em;
+}
+
+.nftcreate {
+  font-family: "Oswald", sans-serif;
+}
+
+.nftmart__top,
+.nftmart__center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nftmart__top h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.nftmart__top button {
+  border: none;
+  color: #000;
+  background: #38f2af;
+  border-radius: 4px;
+  width: 125px;
+  height: 33px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.nftmart__btn button {
+  border: none;
+  margin: 0 0.3em;
+  padding: 0.2em;
+}
+
+.nftmart__btn img {
+  padding-left: 0.4em;
+}
+
+.nftmart__btn .recent {
+  width: 78px;
+  height: 37px;
+  border: none;
+  background: #373943;
+  border-radius: 6px;
+  color: #38f2af;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.nftmart__btn .low {
+  width: 101px;
+  height: 37px;
+  background: #373943;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #38f2af;
+  padding: 0.5em;
+}
+
+.nftmart__btn .all {
+  width: 56px;
+  height: 37px;
+  background: #373943;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #38f2af;
 }
