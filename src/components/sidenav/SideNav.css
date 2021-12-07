@@ -1,7 +1,7 @@
 .sidenav {
   background: #25272e;
   color: #fff;
-  height: 100vh;
+  height: 100%;
   padding: 0.8em;
   border-right: 1px solid #373943;
 }
@@ -13,7 +13,7 @@
 .sidenav ul li {
   list-style: none;
   padding: 0.5em 0;
-  border-bottom: 2px solid lightgray;
+  border-bottom: 1px solid #373943;
 }
 
 .sidenav img {
