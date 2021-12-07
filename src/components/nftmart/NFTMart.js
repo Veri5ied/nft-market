@@ -39,59 +39,107 @@ function NFTMart() {
       </div>
       <div className="nftmart__body mt-4">
         <div className="nfts">
-          <img src={FirstImage} alt="nft" />
-          <div className="nft_det">
-            <h2>The Holy Grail</h2>
-            <p>Pixart Motion</p>
+          <div className="nftmart__card">
+            <img src={FirstImage} alt="nft" />
+            <div className="nft_det">
+              <h2>The Holy Grail</h2>
+              <p>Pixart Motion</p>
+            </div>
+          </div>
+          <div className="nftmart__price">
+            <p className="price">Fixed price</p>
+            <button className="nft__eth">0.001ETH</button>
           </div>
         </div>
         <div className="nfts">
-          <img src={SecondImage} alt="nft" />
-          <div className="nft_det">
-            <h2>Mirror Glass Effect</h2>
-            <p>Pixart Motion</p>
+          <div className="nftmart__card">
+            <img src={SecondImage} alt="nft" />
+            <div className="nft_det">
+              <h2>Mirror Glass Effect</h2>
+              <p>Pixart Motion</p>
+            </div>
+          </div>
+          <div className="nftmart__price">
+            <p className="price">Open bidding</p>
+            <button className="nft__eth">0.005ETH</button>
           </div>
         </div>
         <div className="nfts">
-          <img src={ThirdImage} alt="nft" />
-          <div className="nft_det">
-            <h2>Neon in Life</h2>
-            <p>Pixart Motion</p>
+          <div className="nftmart__card">
+            <img src={ThirdImage} alt="nft" />
+            <div className="nft_det">
+              <h2>Neon in Life</h2>
+              <p>Pixart Motion</p>
+            </div>
+          </div>
+          <div className="nftmart__price">
+            <p className="price">Fixed price</p>
+            <button className="nft__eth">0.002ETH</button>
           </div>
         </div>
         <div className="nfts">
-          <img src={FourthImage} alt="nft" />
-          <div className="nft_det">
-            <h2>Oil Source</h2>
-            <p>Pixart Motion</p>
+          <div className="nftmart__card">
+            <img src={FourthImage} alt="nft" />
+            <div className="nft_det">
+              <h2>Oil Source</h2>
+              <p>Pixart Motion</p>
+            </div>
+          </div>
+          <div className="nftmart__price">
+            <p className="price">Fixed price</p>
+            <button className="nft__eth">0.001ETH</button>
           </div>
         </div>
         <div className="nfts">
-          <img src={FifthImage} alt="nft" />
-          <div className="nft_det">
-            <h2>World Surface</h2>
-            <p>Pixart Motion</p>
+          <div className="nftmart__card">
+            <img src={FifthImage} alt="nft" />
+            <div className="nft_det">
+              <h2>World Surface</h2>
+              <p>Pixart Motion</p>
+            </div>
+          </div>
+          <div className="nftmart__price">
+            <p className="price">Open bidding</p>
+            <button className="nft__eth">0.004ETH</button>
           </div>
         </div>
         <div className="nfts">
-          <img src={SixthImage} alt="nft" />
-          <div className="nft_det">
-            <h2>Infinity Door</h2>
-            <p>Pixart Motion</p>
+          <div className="nftmart__card">
+            <img src={SixthImage} alt="nft" />
+            <div className="nft_det">
+              <h2>Infinity Door</h2>
+              <p>Pixart Motion</p>
+            </div>
+          </div>
+          <div className="nftmart__price">
+            <p className="price">Fixed price</p>
+            <button className="nft__eth">0.005ETH</button>
           </div>
         </div>
         <div className="nfts">
-          <img src={SeventhImage} alt="nft" />
-          <div className="nft_det">
-            <h2>Bi-Conditional Effect</h2>
-            <p>Pixart Motion</p>
+          <div className="nftmart__card">
+            <img src={SeventhImage} alt="nft" />
+            <div className="nft_det">
+              <h2>Bi-Condtional Effect</h2>
+              <p>Pixart Motion</p>
+            </div>
+          </div>
+          <div className="nftmart__price">
+            <p className="price">Fixed price</p>
+            <button className="nft__eth">0.002ETH</button>
           </div>
         </div>
         <div className="nfts">
-          <img src={EightImage} alt="nft" />
-          <div className="nft_det">
-            <h2>Motion View</h2>
-            <p>Pixart Motion</p>
+          <div className="nftmart__card">
+            <img src={EightImage} alt="nft" />
+            <div className="nft_det">
+              <h2>Motion View</h2>
+              <p>Pixart Motion</p>
+            </div>
+          </div>
+          <div className="nftmart__price">
+            <p className="price">Open bidding</p>
+            <button className="nft__eth">0.009ETH</button>
           </div>
         </div>
       </div>

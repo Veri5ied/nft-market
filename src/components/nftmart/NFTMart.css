@@ -97,6 +97,9 @@
   border-radius: 8px;
   border: 1px solid #25272e;
   margin: 0.5em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .nfts img {
@@ -119,6 +122,37 @@
 }
 
 .nft_det h2,
-p {
+.nft_det p {
   padding: 0.2em;
+}
+
+.nftmart__price {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #343741;
+  align-items: center;
+  padding: 0.3em;
+}
+
+.nftmart__price p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #38f2af;
+  align-items: center;
+  padding-top: 0.5em;
+}
+
+.nftmart__price button {
+  border: none;
+  border-radius: 28px;
+  border: 1px solid #38f2af;
+  padding: 4px 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  background: transparent;
 }
